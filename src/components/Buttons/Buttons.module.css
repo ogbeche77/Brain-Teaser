@@ -1,0 +1,19 @@
+.buttondiv {
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+}
+
+.bluebutton {
+    background-color: #023e8a;
+    width: 70px;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 62%;
+}
