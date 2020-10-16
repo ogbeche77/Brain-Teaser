@@ -20,11 +20,11 @@ io.on("connection", socket => {
                 if (result.body.event === "start") {
                     setTimeout(function () {
                         socket.emit("message", message);
-                    }, 750);
+                    }, 1750);
                 } else {
                     setTimeout(function () {
                         socket.emit("message", message);
-                    }, 2000);
+                    }, 3000);
                 }
             }
         }
