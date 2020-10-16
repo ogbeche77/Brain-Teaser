@@ -50,7 +50,7 @@ class App extends Component {
     if (event === "start") {
       const body = {
         added: "",
-        result: Math.floor(Math.random() * 31) + 1,
+        result: Math.floor(Math.random() * 121) + 1,
         event: event
       };
       const message = {
